@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .picture{
+            background-image: url(./images/trip-to-paris.png);
+            /* filter: blur(5px); */
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center center;
+            height: 100%;
+        }
+        .box{
+            background-color: white;
+            position: absolute;
+            top: 35%;
+            left: 30%;
+            z-index: 5;
+            width: 35%;
+            padding: 30px 0;
+            border: 3px solid red;
+            border-radius: 20px;
+            text-align: center;
+            color: red;
+            font-weight: bold;  
+        }
+    </style>
+</head>
+<body>
+    <div class="picture">
+        <img src="./images/trip-to-paris.png" alt="" width="1200px" height="600px">
+    </div>
+    <div class="box">
+        <h3>ADD NEW ITEMS</h3>
+        <input type="text" name="image" id="list"><br>
+        <div class="add"><label for="list">ADD</label></div>
+    </div>
+</body>
+</html>
